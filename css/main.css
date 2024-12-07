@@ -98,7 +98,8 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
-.card-content__title:hover {
+.card-content__title:hover,
+.card-content__title:focus {
   color: var(--yellow);
 }
 
