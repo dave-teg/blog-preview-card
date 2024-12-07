@@ -60,6 +60,7 @@ img {
   padding: var(--padding-lg);
   border-radius: var(--border-radius-lg);
   box-shadow: 8px 8px 0px rgb(0,0,0);
+  border: 1px solid var(--gray-950);
 }
 
 .blog-image {
