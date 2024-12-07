@@ -94,7 +94,14 @@ img {
   font-size: var(--font-lg);
   font-weight: var(--fontWeight-xb);
   line-height: var(--lineHeight);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
+
+.card-content__title:hover {
+  color: var(--yellow);
+}
+
 
 .card-content__description {
   color: var(--gray-500);
